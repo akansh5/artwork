@@ -1,16 +1,18 @@
 import turtle as t
 
 t.bgcolor("black")
-t.color("blue","cyan")
+t.color("blue")
 
 t.speed(10)
 t.pensize(1)
 
-t.goto(-100,0)
+t.penup()
+t.goto(-250,-100)
+t.pendown()
 
-for i in range (50):
-    t.forward(250)
-    t.left(130)
+for i in range (100):
+    t.forward(500)
+    t.left(125)
 
 t.hideturtle()
 t.done()
